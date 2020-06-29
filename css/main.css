@@ -1,17 +1,22 @@
+body {
+    margin: 0;
+}
+
 .header__top-bar {
     height: 45px;
-    margin: -8px;
     background-color: #333333;
 }
 
-.header__currency {
+/* .header__currency {
     display: flex;
-}
+} */
 
 .header__block-bar {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-left: 200px;
+    margin-right: 220px;
 }
 
 .header__currency-text{
@@ -72,7 +77,6 @@
     font-weight: 300;
 }
     
-
 .fas{
     color: white;
     padding-right: 24px;
@@ -83,4 +87,103 @@
     padding-left: 8px;
     font-weight: 200;
 }
+
+.header__block{
+    background-image: url(/img/photo.png);
+    background-repeat: no-repeat;
+    height: 915px;
+    background-color: #f8f8f8;
+    background-position: 230px;
+}
+
+.headre__block-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #222222;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+
+.header__logo span{
+    font-weight: bold;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+}
+
+.header__item{
+    display: flex;
+    list-style: none;
+}
+
+.header__item a {
+    text-decoration: none;
+    padding-left: 55px;
+    color: #5b5b5b;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    transition: 0.5s;
+    font-size: 13px;
+}
+
+.header__item a:hover{
+    color: #00c8c8;
+}
+
+/* .header__li{
+    position: relative;
+    display: inline;
+}
+
+.drobdown{
+    display: none;
+    background-color: red;
+    max-width: 200px;
+}
+
+.drobdown a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.header__li:hover .drobdown {
+    display: block;
+
+} */
+
+.header__input{
+    margin-left: 114px;
+    width: 190px;
+    height: 30px;
+    border:  solid 1px #e7e7e7;
+    background-color: #f8f8f8;
+}
+
+.header__text{
+    color: #575153;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 450px;
+    font-weight: bold;
+    letter-spacing: 300px;
+    text-align: center;
+    margin-top: 160px;
+    margin-left: 300px;
+}
+    
+.header__container{
+    display: flex;
+    justify-content: center;
+} 
+  
 
