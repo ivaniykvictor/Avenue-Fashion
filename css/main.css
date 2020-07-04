@@ -137,7 +137,6 @@ body {
 .down{
     color: #989898;
     margin-left: 55px;
-
 }
 
 .header__item-link {
@@ -330,7 +329,6 @@ hr{
 .items__list:nth-child(6n+3), .items__list:nth-child(6n+4){
     flex: 0 0 870px;
     height: 704px;
-
 }
 
 .items__list:nth-child(6n+4){
@@ -378,7 +376,6 @@ hr{
     background-image: url(/img/photo5.png);
     position: relative;
     display: block;
-    
 }
 
 .items__drobdown{
@@ -412,7 +409,6 @@ hr{
 .items__drobdown-botton{
     display: flex;
     justify-content: center;
-    
 }
 
 .items__drobdown-botton i{
@@ -560,6 +556,10 @@ hr{
     text-align: left;
     line-height: 2.14;
     color: #727272;
+}
+
+.footer__nav-link:hover{
+    color: #00c8c8;
 }
 
 .contact{
