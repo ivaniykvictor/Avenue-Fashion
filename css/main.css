@@ -18,20 +18,16 @@ body{
 
 .header__currency-text{
     font-family: 'Montserrat', sans-serif;
-    color: #707070;
-    font-size: 15px;
-    font-weight: 300;
-    padding-top: 3px;
+    color: #777777;
+    font-size: 13px;
 }
 
 .header__currency-input{
-    text-decoration: none;
     background-color: transparent;
     border: solid transparent;
-    color: #707070;
+    color: #777777;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 13px;
 }
 
 .header__nav-bar{
@@ -40,12 +36,13 @@ body{
 }
 
 .header__register{
-    color: #707070;
+    color: #999999;
     text-decoration: none;
     padding-right: 35px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 500;
+    line-height: 1.54;
 }
 
 .header__register:hover{
@@ -53,12 +50,13 @@ body{
 }
 
 .header__sign{
-    padding-right: 80px;
+    padding-right: 85px;
     text-decoration: none;
-    color: #707070;
+    color: #999999;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 500;
+    line-height: 1.54;
 }
 
 .header__sign:hover{
@@ -78,7 +76,7 @@ body{
     text-decoration: none;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 300;
 }
     
@@ -92,6 +90,7 @@ body{
     margin-left: -10px;
     font-weight: 200;
     color: #ffffff;
+    font-size: 13px;
 }
 
 .header__container{
@@ -104,7 +103,7 @@ body{
 
 .headre__block{
     display: flex;
-    margin: 0 135px;
+    margin: 0 132px;
     justify-content: space-between;
     align-items: center;
 }
@@ -130,7 +129,7 @@ body{
 .header__item{
     display: flex;
     list-style: none;
-    margin-top: 35px;
+    margin-top: 42px;
 }
 
 .down{
@@ -231,6 +230,7 @@ body{
 
 .header__input{
     margin-left: 120px;
+    margin-top: 5px;
     width: 190px;
     height: 30px;
     border:  solid 1px #e7e7e7;
@@ -256,7 +256,7 @@ body{
     letter-spacing: 330px;
     text-align: center;
     margin: 0;
-    margin-top: 80px;
+    margin-top: 85px;
     margin-left: 200px;
 }
 
@@ -275,7 +275,8 @@ body{
 
 .header__btn{
     text-align: right;
-    margin-right: 323px;
+    margin-right: 325px;
+    margin-top: 10px;
 }
 
 .items__container{
@@ -284,14 +285,15 @@ body{
 
 hr{
     color: #eeeeee;
-    margin: 62px 0;
+    margin-top: 62px;
+    margin-bottom: 50px;
 }
 
 .items__nav{
     display: flex;
     list-style: none;
     padding-left: 0;
-    margin-bottom: 31px;
+    margin-bottom: 28px;
 }
 
 .items__nav-link{
@@ -301,7 +303,7 @@ hr{
     text-transform: uppercase;
     font-size: 13px;
     padding-left: 0;
-    padding-right: 55px;
+    padding-right: 50px;
     font-weight: bold;
 }
 
@@ -312,8 +314,6 @@ hr{
 .items__block{
     display: flex;
     flex-wrap: wrap;
-    list-style: none;
-    padding-left: 0;
     justify-content: space-between;
     margin-bottom: 30px;
 }
@@ -458,7 +458,8 @@ hr{
 
 .lookbook{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 62px;
 }
 
 .lookbook__container{
@@ -489,7 +490,7 @@ hr{
     width: 291px;
     text-align: right;
     position: relative;
-    left: 50%;
+    left: 47%;
     z-index: 10;
 }
 
@@ -499,6 +500,10 @@ hr{
     font-size: 48px;
     font-weight: 300;
     color: #575153;
+    margin-bottom: 0;
+    margin-top: 89px;
+    letter-spacing: 1.2px;
+    line-height: 1.2;
 }
 
 .lookbook__title span{
@@ -509,7 +514,7 @@ hr{
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: #727272;
-    line-height: 1.57;
+    line-height: 1.4;
 }
 
 .lookbook__button{
@@ -521,10 +526,10 @@ hr{
     text-align: center;
     color: #454647;
     font-size: 16px;
-    letter-spacing: 3,2px;
+    letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: bold;
-    margin-top: 31px;
+    margin-top: 13px;
 }
 
 .lookbook__button:hover{
