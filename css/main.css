@@ -38,7 +38,7 @@ body{
 .header__register{
     color: #999999;
     text-decoration: none;
-    padding-right: 35px;
+    padding-right: 37px;
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     font-weight: 500;
@@ -50,7 +50,7 @@ body{
 }
 
 .header__sign{
-    padding-right: 85px;
+    padding-right: 83px;
     text-decoration: none;
     color: #999999;
     font-family: 'Montserrat', sans-serif;
@@ -70,6 +70,7 @@ body{
     background-color: #00c8c8;
     align-items: center;
     justify-content: space-evenly;
+    margin-right: 6px;
 }
 
 .header__empty{
@@ -98,7 +99,7 @@ body{
     background-repeat: no-repeat;
     height: 915px;
     background-color: #f8f8f8;
-    background-position: 230px;
+    background-position: 227px;
 }
 
 .headre__block{
@@ -158,13 +159,14 @@ body{
 }
 
 .header__drobdown{
-    position: fixed;
+    position: absolute;
     display: none;
     box-shadow: 0px 17px 24px 0 rgba(0, 0, 0, 0.14);
     background-color: #f8f8f8;
     width: 467px;
     height: 527px;
     margin-left: 50px;
+    margin-top: 10px;
 }
 
 .header__drobdown-item{
@@ -229,7 +231,7 @@ body{
 }
 
 .header__input{
-    margin-left: 120px;
+    margin-left: 128px;
     margin-top: 5px;
     width: 190px;
     height: 30px;
@@ -275,12 +277,12 @@ body{
 
 .header__btn{
     text-align: right;
-    margin-right: 325px;
+    margin-right: 332px;
     margin-top: 10px;
 }
 
 .items__container{
-    margin: 0px 142px;
+    margin: 0px 140px;
 }
 
 hr{
@@ -514,7 +516,7 @@ hr{
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: #727272;
-    line-height: 1.4;
+    line-height: 1.47;
 }
 
 .lookbook__button{
@@ -568,8 +570,8 @@ hr{
     line-height: 1.54;
     text-transform: uppercase;
     color: #575153;
-    margin-top: 40px;
-    margin-bottom: 25px;
+    margin-top: 43px;
+    margin-bottom: 22px;
 }
 
 .footer__nav-link{
@@ -599,7 +601,7 @@ hr{
     display: flex;
     justify-content: space-between;
     margin-bottom: 56px;
-    margin-top: 50px;
+    margin-top: 45px;
 }
 
 .footer__baner-award{
@@ -619,10 +621,10 @@ hr{
     font-size: 36px;
     font-weight: 300;
     line-height: 1.33;
-    letter-spacing: 1.8px;
+    letter-spacing: 1.2px;
     text-align: center;
     color: #ffffff;
-    margin: 62px 0;
+    margin: 52px 0;
     text-transform: uppercase;
 }
 
@@ -643,9 +645,9 @@ hr{
 }
 
 .fab{
-    font-size: 36px;
+    font-size: 32px;
     line-height: 1.33;
-    letter-spacing: 1.8px;
+    letter-spacing: 17px;
     text-align: center;
     color: #ffffff;
     padding: 0 20px;
