@@ -169,6 +169,10 @@ body{
     margin-top: 10px;
 }
 
+.drobdown-lookbook{
+    height: 405px;
+}
+
 .header__drobdown-item{
     list-style: none;
     display: inline-block;    
@@ -210,6 +214,10 @@ body{
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+.baner-lookbook {
+    transform: translate(-50%, -20%); 
 }
 
 .header__drobdown-sale{
