@@ -248,14 +248,18 @@ body{
     position: relative;
 }
 
+.header__input::-webkit-input-placeholder{
+    padding-left: 10px;
+    color: #989898;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .fa-search{
     color: #989898;
     margin-left: -30px;
-    margin-top: 4px;
+    margin-top: 10px;
     position: absolute;
-    z-index: 1;
     font-size: 14px;
-    line-height: 1.93;
 }
 
 .header__text{
