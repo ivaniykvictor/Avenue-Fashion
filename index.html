@@ -24,9 +24,9 @@
                     <nav class="header__nav-bar">
                         <a href="#" class="header__register">Register</a>
                         <a href="#" class="header__sign">Sign In</a>
-                        <div class="header__block-empty">
+                        <div class="header__empty">
                             <i class="fas fa-shopping-cart"></i>
-                            <a href="#" class="header__empty">empty</a>
+                            <a href="#" class="header__empty-text">empty</a>
                             <i class="fas fa-angle-down"></i>
                         </div>
                     </nav>
@@ -34,7 +34,7 @@
             </div>
         </div>
         <div class="header__container">
-            <div class="headre__block">
+            <div class="header__block">
                 <h2 class="header__logo"> <span>Avenue</span>  Fashion</h2>
                 <nav class="header__nav">
                     <ul class="header__item">
@@ -150,19 +150,171 @@
                             </nav>
                         </li>
                     </ul>
+                    <div class="header__adaptive-menu" id="adaptiveMenu">
+                        <i class="fa fa-bars"></i>
+                    </div>
                     <div> 
                         <input class="header__input" type="search" placeholder="Search..">
                         <i class="fas fa-search" aria-hidden="true"></i>
                     </div>
                 </nav>
             </div>
-            <h1 class="header__text">AVE</h1>
+            <!-- <h1 class="header__text">AVE</h1> -->
+            <div class="header__text">
+                <p>A</p>
+                <p>V</p>
+                <p>E</p>
+            </div>
             <div class="header__btn">
                 <button class="header__botton">Shop Men's Collection</button>
             </div>
         </div>
     </header>
-    <div class="items__container">
+    <div class="menu" id="menuActive">
+        <div class="menu__close" id="menuClose">
+            <i class="fas fa-times"></i>
+        </div>
+        <nav>
+            <ul class="menu__item">
+                <li class="menu__li">
+                    <a href="#" class="menu__link">Mens</a>
+                    <i class="fas fa-angle-down menu__down"></i>
+                    <nav class="menu__drobdown">
+                        <ul  class="menu__drobdown-item">
+                            <li>
+                                <p class="menu__drobdown-text">Casuals</p>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">Jakets</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">Hoodies & Sweatshirts</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">Polo Shirts</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">Sportswear</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">Trousers & Chinos</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">T-Shirts</a>
+                            </li>
+                        </ul>
+                        <ul class="menu__drobdown-item  menu__drobdown-block">
+                            <li>
+                                <p class="menu__drobdown-text">Formal</p>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">Jakets</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">Shirts</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">Suits</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">Trousers</a>
+                            </li>
+                        </ul>
+                        
+                    </nav>
+                </li>
+                <li class="menu__li">
+                    <a href="#" class="menu__link">Womens</a>
+                    <i class="fas fa-angle-down menu__down"></i>
+                    <nav class="menu__drobdown">
+                        <ul  class="menu__drobdown-item">
+                            <li>
+                                <p class="menu__drobdown-text">Casuals</p>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">Jakets</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">Hoodies & Sweatshirts</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">Polo Shirts</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">Sportswear</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">Trousers & Chinos</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">T-Shirts</a>
+                            </li>
+                        </ul>
+                        <ul class="menu__drobdown-item  menu__drobdown-block">
+                            <li>
+                                <p class="menu__drobdown-text">Formal</p>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">Jakets</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">Shirts</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">Suits</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">Trousers</a>
+                            </li>
+                        </ul>
+                        
+                    </nav>
+                </li>
+                <li class="menu__li">
+                    <a href="#" class="menu__link">The brand</a>
+                </li>
+                <li class="menu__li">
+                    <a href="#" class="menu__link">Local stores</a>
+                    <i class="fas fa-angle-down menu__down"></i>
+                </li>
+                <li class="menu__li">
+                    <a href="#" class="menu__link">Look book</a>
+                    <i class="fas fa-angle-down menu__down"></i>
+                    <nav class="menu__drobdown">
+                        <ul  class="menu__drobdown-item">
+                            <li>
+                                <p class="menu__drobdown-text">Our lookbooks</p>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">Latest Posts (mixed)</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">Men's Lookbook</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">Women's Lookbook</a>
+                            </li>
+                        </ul>
+                        <ul class="menu__drobdown-item  menu__drobdown-block">
+                            <li>
+                                <p class="menu__drobdown-text">Your lookbook</p>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">View and Edit</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">Share</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__drobdown-link">Delete</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="items">
         <hr>
         <nav>
             <ul class="items__nav">
@@ -200,18 +352,18 @@
             <div class="items__list photo-5">
                 <p class="items__price"><sup>&#163;</sup>29.95</p>
                 <div class="items__drobdown">
-                    <div class="drobdown-img">
+                    <div class="items__drobdown-img">
                         <img src="/img/thumb-front.png" alt="thumb-front">
                     </div>
-                    <div class="drobdown-img">
+                    <div class="items__drobdown-img">
                         <img src="/img/thumb-back.png" alt="thumb-back">
                     </div>
-                    <div class="drobdown-link">
+                    <div class="items__drobdown-link">
                         <a href="#">
                             <i class="fas fa-info-circle"></i>
                         </a>
                     </div>
-                    <div class="drobdown-block">
+                    <div class="items__drobdown-block">
                         <h5 class="items__drobdown-title">Womens burnt orange cacual tee <sup>&#163;</sup>29.95 </h5>
                         <p class="items__drobdown-text">Classic casual t-shirt for women on the move. <br> 100% cotton</p>
                         <div class="items__drobdown-botton">
@@ -228,7 +380,7 @@
         </div>
        <hr>
     </div>
-    <section class="lookbook">
+    <!-- <section class="lookbook">
         <div class="lookbook__container lookbook__man">
             <div class="lookbook__block">
                 <h2 class="lookbook__title"><span>men's</span>  lookbook</h2>
@@ -250,8 +402,8 @@
                 <button class="lookbook__button">view now</button>
             </div>
         </div>
-    </section>
-    <footer class="footer">
+    </section> -->
+    <!-- <footer class="footer">
         <div class="footer__conteiner">
             <nav class="footer__nav">
                 <ul class="footer__nav-item">
@@ -394,6 +546,7 @@
                 </nav>
             </div>
         </div>
-    </footer>
+    </footer> -->
+    <script src="./js/main.js"></script>
 </body>
 </html>
