@@ -1,0 +1,81 @@
+.lookbook{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 62px;
+}
+
+.lookbook__container{
+    display: block;
+    width: 663px;
+    height: 530px;
+    background-color: #f8f8f8;
+    background-image: url(/img/REPLACE.png);
+}
+
+.lookbook__man{
+    background-color: #f8f8f8;
+    background-image: url(/img/REPLACE.png);
+}
+
+.lookbook__women{
+    background-color: #f8f8f8;
+    background-image: url(/img/REPLACE/copy.png);
+}
+
+.lookbook__your{
+    background-color: #f8f8f8;
+    background-image: url(/img/photo/silhouette.png);
+}
+
+.lookbook__block{
+    display: block;
+    width: 291px;
+    text-align: right;
+    position: relative;
+    left: 47%;
+    z-index: 10;
+}
+
+.lookbook__title{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 300;
+    color: #575153;
+    margin-bottom: 0;
+    margin-top: 89px;
+    letter-spacing: 1.2px;
+    line-height: 1.2;
+}
+
+.lookbook__title span{
+    font-weight: bold;
+}
+
+.lookbook__text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #727272;
+    line-height: 1.47;
+}
+
+.lookbook__button{
+    width: 180px;
+    height: 59px;
+    border: solid 2px #737373;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #454647;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 13px;
+}
+
+.lookbook__button:hover{
+    background-color: #00c8c8;
+    color: #f8f8f8;
+    border: transparent solid 0;
+}

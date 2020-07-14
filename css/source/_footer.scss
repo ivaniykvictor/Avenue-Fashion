@@ -1,0 +1,142 @@
+.footer{
+    background-color: #f8f8f8;
+    margin-top: 124px;
+}
+
+.footer__conteiner{
+    width: 1170px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.footer__nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__nav-item{
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer__nav-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.54;
+    text-transform: uppercase;
+    color: #575153;
+    margin-top: 43px;
+    margin-bottom: 22px;
+}
+
+.footer__nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: left;
+    line-height: 2.14;
+    color: #727272;
+}
+
+.footer__nav-link:hover{
+    color: #00c8c8;
+}
+
+.contact{
+    line-height: 1.5;
+    font-style: normal;
+}
+
+.email{
+    line-height: 0;
+}
+
+.footer__baner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 56px;
+    margin-top: 45px;
+}
+
+.footer__baner-award{
+    width: 570px;
+    height: 200px;
+    background-color: #333333;
+}
+
+.footer__baner-social{
+    width: 570px;
+    height: 200px;
+    background-color: #00c8c8;
+}
+
+.footer__baner-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 1.33;
+    letter-spacing: 1.2px;
+    text-align: center;
+    color: #ffffff;
+    margin: 52px 0;
+    text-transform: uppercase;
+}
+
+.footer__baner-text span{
+    font-weight: 900;
+}
+
+.footer__baner-social{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__baner-item{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+}
+
+.fab{
+    font-size: 32px;
+    line-height: 1.33;
+    letter-spacing: 17px;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 20px;
+}
+
+.footer__copyright{
+    height: 45px;
+    background-color: #333333;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__copyright-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #999999;
+}
+
+.footer__copyright-nav{
+    display: flex;
+}
+
+.footer__copyright-nav{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    line-height: 2.31;
+    color: #999999;
+    padding-left: 30px;
+}
