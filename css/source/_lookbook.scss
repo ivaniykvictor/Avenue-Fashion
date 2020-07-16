@@ -1,81 +1,131 @@
 .lookbook{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 62px;
-}
+    margin-top: 42px;
 
-.lookbook__container{
-    display: block;
-    width: 663px;
-    height: 530px;
-    background-color: #f8f8f8;
-    background-image: url(/img/REPLACE.png);
-}
+    @media screen and (max-width: 1409px) {
+        justify-content: space-evenly;
+    }
 
-.lookbook__man{
-    background-color: #f8f8f8;
-    background-image: url(/img/REPLACE.png);
-}
+    &__container{
+        flex: 0 0 463px;
+        height: 430px;
+        background-color: #f8f8f8;
 
-.lookbook__women{
-    background-color: #f8f8f8;
-    background-image: url(/img/REPLACE/copy.png);
-}
+        @media screen and (max-width: 480px) {
+            flex: 0 0 320px;
+            height: 300px;
+        }
+    }
 
-.lookbook__your{
-    background-color: #f8f8f8;
-    background-image: url(/img/photo/silhouette.png);
-}
+    &__man{
+        background-color: #f8f8f8;
+        background-image: url(/img/REPLACE.png);
+        background-size: cover;
+        background-repeat: no-repeat;
 
-.lookbook__block{
-    display: block;
-    width: 291px;
-    text-align: right;
-    position: relative;
-    left: 47%;
-    z-index: 10;
-}
+        @media screen and (max-width: 937px) {
+            margin-bottom: 15px;
+        }
+    }
 
-.lookbook__title{
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    font-size: 48px;
-    font-weight: 300;
-    color: #575153;
-    margin-bottom: 0;
-    margin-top: 89px;
-    letter-spacing: 1.2px;
-    line-height: 1.2;
-}
+    &__women{
+        background-color: #f8f8f8;
+        background-image: url(/img/REPLACE-copy.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 10px;
 
-.lookbook__title span{
-    font-weight: bold;
-}
+        @media screen and (max-width: 937px) {
+            margin-left: 0;
+        }
+    }
 
-.lookbook__text{
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    color: #727272;
-    line-height: 1.47;
-}
+    &__your{
+        background-color: #f8f8f8;
+        background-image: url(/img/photo-silhouette.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 10px;
 
-.lookbook__button{
-    width: 180px;
-    height: 59px;
-    border: solid 2px #737373;
-    background-color: transparent;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    color: #454647;
-    font-size: 16px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-top: 13px;
-}
+        @media screen and (max-width: 1409px) {
+            margin-top: 15px;
+        }
 
-.lookbook__button:hover{
-    background-color: #00c8c8;
-    color: #f8f8f8;
-    border: transparent solid 0;
+        @media screen and (max-width: 937px) {
+            margin-left: 0;
+        }
+    }
+
+    &__block{
+        width: 220px;
+        text-align: right;
+        position: relative;
+        left: 45%;
+
+        @media screen and (max-width: 480px) {
+            width: 170px;
+            left: 45%;
+        }
+    }
+
+    &__title{
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 300;
+        color: #575153;
+        margin-bottom: 0;
+        margin-top: 89px;
+        letter-spacing: 1.2px;
+        line-height: 1.2;
+
+        @media screen and (max-width: 480px) {
+            font-size: 15px;
+        }
+
+        span{
+            font-weight: bold;
+        }
+    }
+
+    &__text{
+        font-family: 'Roboto', sans-serif;
+        font-size: 11px;
+        color: #727272;
+        line-height: 1.47;
+
+        @media screen and (max-width: 480px) {
+            font-size: 9px;
+        }
+    }
+    
+    &__button{
+        width: 150px;
+        height: 49px;
+        border: solid 1px #737373;
+        background-color: transparent;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        color: #454647;
+        font-size: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 13px;
+        cursor: pointer;
+
+        @media screen and (max-width: 480px) {
+            width: 110px;
+            height: 30px;
+            font-size: 9px;
+        }
+    }
+
+    &__button:hover{
+        background-color: #00c8c8;
+        color: #f8f8f8;
+        border: transparent solid 0;
+    }
 }

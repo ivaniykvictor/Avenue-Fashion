@@ -21,7 +21,7 @@ body{
             font-size: 12px;
 
             @media screen and (max-width: 768px){
-                font-size: 10px;
+                font-size: 8px;
             }
         }
 
@@ -33,7 +33,7 @@ body{
             font-size: 12px;
 
             @media screen and (max-width: 768px){
-                font-size: 10px;
+                font-size: 8px;
             }
         }
     }
@@ -54,7 +54,7 @@ body{
         line-height: 1.54;
 
         @media screen and (max-width: 768px){
-            font-size: 10px;
+            font-size: 8px;
         }
 
         @media screen and (max-width: 375px){
@@ -72,7 +72,7 @@ body{
         line-height: 1.54;
 
         @media screen and (max-width: 768px){
-            font-size: 10px;
+            font-size: 8px;
         }
 
         @media screen and (max-width: 375px){
@@ -98,7 +98,7 @@ body{
             padding-right: 5px;
 
             @media screen and (max-width: 768px){
-                font-size: 10px;
+                font-size: 8px;
             }
         }
     }
@@ -378,7 +378,7 @@ body{
     width: 310px;
     background: #333333;
     z-index: 100;
-    margin-top: 45px;
+    margin-top: 35px;
 
     &__close {
         width: 20px;
@@ -486,7 +486,7 @@ body{
 
 @media screen and (max-width: 768px){
     .fas{
-        font-size: 11px;
+        font-size: 9px;
     }
 }
 
@@ -498,7 +498,7 @@ body{
 
 @media screen and (max-width: 768px){
     .fa-angle-down{
-        font-size: 11px;
+        font-size: 9px;
     }
 }
 
