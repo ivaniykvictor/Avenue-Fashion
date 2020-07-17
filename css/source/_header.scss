@@ -38,7 +38,6 @@ body{
         }
     }
 
-
     &__nav-bar{
         display: flex;
         align-items: center;
@@ -231,6 +230,11 @@ body{
         margin-top: 10px;
         z-index: 10;
 
+        @media screen and (max-width: 1398px) {
+            height: 390px;
+            width: 350px;
+        }
+
         &-item{
             list-style: none;
             display: inline-block;    
@@ -248,6 +252,10 @@ body{
             text-align: left;
             color: #575153;
             text-transform: uppercase;
+
+            @media screen and (max-width: 1398px) {
+                font-size: 10px;
+            }
         }
 
         &-link{
@@ -258,6 +266,10 @@ body{
             text-align: left;
             color: #727272;
             text-decoration: none;
+
+            @media screen and (max-width: 1398px) {
+                font-size: 11px;
+            }
         }
 
         &-baner{
@@ -268,6 +280,11 @@ body{
             position: absolute;
             left: 50%;
             transform: translate(-50%, 0);
+
+            @media screen and (max-width: 1398px) {
+                height: 150px;
+                width: 300px;
+            }
         }
 
         &-sale{
@@ -285,6 +302,10 @@ body{
                 letter-spacing: 1.8px;
                 font-weight: 800;
                 margin: 0;
+
+                @media screen and (max-width: 1398px) {
+                    font-size: 30px;
+                }
             }
         }
     }
@@ -462,9 +483,7 @@ body{
         &-link:hover{
             color: #00c8c8;
         }
-
     }
-
 }
 
 .menu__li:hover .menu__drobdown{
@@ -514,6 +533,11 @@ body{
 .drobdown-lookbook{
     height: 400px;
     width: 420px;
+
+    @media screen and (max-width: 1398px) {
+        height: 310px;
+        width: 320px;
+    }
 }
 
 .header__li:hover .header__drobdown{
@@ -522,6 +546,11 @@ body{
 
 .baner-lookbook {
     transform: translate(-50%, -20%); 
+
+    @media screen and (max-width: 1398px) {
+        height: 150px;
+        width: 300px;
+    }
 }
 
 .header__input::-webkit-input-placeholder{
