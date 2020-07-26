@@ -1,5 +1,5 @@
 .footer{
-    background-color: #f8f8f8;
+    background-color: $background;
     margin-top: 124px;
 
     @media screen and (max-width: 1180px) {
@@ -51,7 +51,7 @@
         }
 
         &-title{
-            font-family: 'Montserrat', sans-serif;
+            font-family: $font-text;
             font-size: 13px;
             font-weight: bold;
             text-align: left;
@@ -73,7 +73,7 @@
         }
 
         &-link{
-            font-family: 'Montserrat', sans-serif;
+            font-family: $font-text;
             font-size: 14px;
             font-weight: 300;
             text-decoration: none;
@@ -86,12 +86,16 @@
             }
 
             @media screen and (max-width: 765px) {
-                font-size: 5px;
+                font-size: 6.5px;
+            }
+
+            @media screen and (max-width: 374px) {
+                font-size: 5.5px;
             }
         }
 
         &-link:hover{
-            color: #00c8c8;
+            color: $link-color;
         }
     }
 
@@ -134,7 +138,7 @@
             justify-content: center;
             width: 570px;
             height: 200px;
-            background-color: #00c8c8;
+            background-color: $link-color;
 
             @media screen and (max-width: 1080px) {
                 width: 505px;
@@ -156,7 +160,7 @@
         }
 
         &-text{
-            font-family: 'Montserrat', sans-serif;
+            font-family: $font-text;
             font-size: 36px;
             font-weight: 300;
             line-height: 1.33;
@@ -197,7 +201,7 @@
         background-color: #333333;
 
         &-text{
-            font-family: 'Montserrat', sans-serif;
+            font-family: $font-text;
             font-size: 13px;
             color: #999999;
 
@@ -216,7 +220,7 @@
 
         &-link{
             text-decoration: none;
-            font-family: 'Montserrat', sans-serif;
+            font-family: $font-text;
             font-size: 13px;
             line-height: 2.31;
             color: #999999;

@@ -11,7 +11,7 @@
     &__container{
         flex: 0 0 463px;
         height: 430px;
-        background-color: #f8f8f8;
+        background-color: $background;
 
         @media screen and (max-width: 1409px) {
                 flex: 0 0 400px;
@@ -25,7 +25,7 @@
     }
 
     &__man{
-        background-color: #f8f8f8;
+        background-color: $background;
         background-image: url(../../img/REPLACE.png);
         background-size: cover;
         background-repeat: no-repeat;
@@ -36,7 +36,7 @@
     }
 
     &__women{
-        background-color: #f8f8f8;
+        background-color: $background;
         background-image: url(../../img/REPLACE-copy.png);
         background-size: cover;
         background-repeat: no-repeat;
@@ -48,7 +48,7 @@
     }
 
     &__your{
-        background-color: #f8f8f8;
+        background-color: $background;
         background-image: url(../../img/photo-silhouette.png);
         background-size: cover;
         background-repeat: no-repeat;
@@ -80,7 +80,7 @@
     }
 
     &__title{
-        font-family: 'Montserrat', sans-serif;
+        font-family: $font-text;
         text-transform: uppercase;
         font-size: 30px;
         font-weight: 300;
@@ -119,7 +119,7 @@
         height: 49px;
         border: solid 1px #737373;
         background-color: transparent;
-        font-family: 'Montserrat', sans-serif;
+        font-family: $font-text;
         text-align: center;
         color: #454647;
         font-size: 14px;
@@ -143,8 +143,8 @@
     }
 
     &__button:hover{
-        background-color: #00c8c8;
-        color: #f8f8f8;
+        background-color: $link-color;
+        color: $background;
         border: transparent solid 0;
     }
 }

@@ -13,7 +13,7 @@
         &-link{
             color: #727272;
             text-decoration: none;
-            font-family: 'Montserrat', sans-serif;
+            font-family: $font-text;
             text-transform: uppercase;
             font-size: 10px;
             padding-left: 0;
@@ -31,7 +31,7 @@
         }
 
         &-link:hover{
-            color: #00c8c8;
+            color: $link-color;
         }
         
     }
@@ -41,20 +41,45 @@
         flex-wrap: wrap;
         justify-content: space-between;
 
-        @media screen and (max-width: 1400px) {
+        @media screen and (max-width: 1095px) {
             justify-content: center;
         }
     }
 
     &__list{
-        flex: 0 1 310px;
-        height: 350px;
-        background-color: #f8f8f8;
+        flex: 0 0 310px;
+        height: 340px;
+        background-color: $background;
         margin-top: 15px;
+
+        @media screen and (max-width: 1427px) {
+            flex: 0 0 290px;
+            height: 320px;
+        }
+
+        @media screen and (max-width: 1347px) {
+            flex: 0 0 270px;
+            height: 300px;
+        }
+
+        @media screen and (max-width: 1268px) {
+            flex: 0 0 250px;
+            height: 280px;
+        }
+
+        @media screen and (max-width: 1187px) {
+            flex: 0 0 210px;
+            height: 230px;
+        }
+
+        @media screen and (max-width: 1095px) {
+            flex: 0 0 310px;
+            height: 340px;
+        }
     }
 
     &__price{
-        font-family: 'Montserrat', sans-serif;
+        font-family: $font-text;
         font-size: 15px;
         font-weight: 300;
         letter-spacing: 1.05px;
@@ -80,6 +105,22 @@
             position: relative;
             margin-top: 85px;
             z-index: 10;
+
+            @media screen and (max-width: 1346px) {
+                margin-top: 55px;
+            }
+
+            @media screen and (max-width: 1270px) {
+                margin-top: 35px;
+            }
+
+            @media screen and (max-width: 1186px) {
+                margin-top: 0;
+            }
+
+            @media screen and (max-width: 1186px) {
+                 margin-top: 85px;
+            }
         }
 
         &-img{
@@ -100,12 +141,22 @@
             text-shadow: 0px 2px 12.3px rgba(0, 0, 0, 0.13);
 
             i{
-                color: #f8f8f8;
+                color: $background;
+            }
+
+            @media screen and (max-width: 1186px) {
+                font-size: 30px;
+                margin-top: -40px;
+            }
+
+            @media screen and (max-width: 1186px) {
+                font-size: 40px;
+                margin-top: 0;
             }
         }
 
         &-title{
-            font-family: 'Montserrat', sans-serif;
+            font-family: $font-text;
             font-size: 10px;
             line-height: 1.54;
             text-align: center;
@@ -113,14 +164,21 @@
             color: #727272;
             font-weight: 600;
             padding-top: 10px;
-            width: 100%;
         }
 
         &-text{
-            font-family: 'Montserrat', sans-serif;
+            font-family: $font-text;
             font-size: 12px;
             text-align: center;
             color: #8e8c8c;
+
+            @media screen and (max-width: 1186px) {
+                font-size: 10px;
+            }
+
+            @media screen and (max-width: 1096px) {
+                font-size: 12px;
+            }
         }
 
         &-botton{
@@ -141,7 +199,7 @@
             }
 
             i:hover{
-                background-color: #00c8c8;
+                background-color: $link-color;
             }
         }
     }
@@ -157,16 +215,69 @@ hr{
     flex: 0 0 653px;
     height: 514px;
 
+    @media screen and (max-width: 1427px) {
+        flex: 0 0 633px;
+        height: 494px;
+    }
+
+    @media screen and (max-width: 1375px) {
+        flex: 0 0 613px;
+        height: 494px;
+    }
+
+    @media screen and (max-width: 1347px) {
+        flex: 0 0 593px;
+        height: 484px;
+    }
+
+    @media screen and (max-width: 1290px) {
+        flex: 0 0 573px;
+        height: 484px;
+    }
+
+    @media screen and (max-width: 1268px) {
+        flex: 0 0 553px;
+        height: 464px;
+    }
+
+    @media screen and (max-width: 1210px) {
+        flex: 0 0 533px;
+        height: 464px;
+    }
+
+    @media screen and (max-width: 1187px) {
+        flex: 0 0 503px;
+        height: 444px;
+    }
+
+    @media screen and (max-width: 1187px) {
+        flex: 0 0 483px;
+        height: 444px;
+    }
+
+    @media screen and (max-width: 1095px) {
+        flex: 0 0 653px;
+        height: 514px;
+    }
+
     @media screen and (max-width: 654px) {
         flex: 0 0 310px;
-        height: 350px;
+        height: 340px;
     }
 }
 
 .items__list:nth-child(6n+4){
-    margin-top: -130px;
+    margin-top: -140px;
 
-    @media screen and (max-width: 1400px) {
+    @media screen and (max-width: 1347px) {
+        margin-top: -150px;
+    }
+
+    @media screen and (max-width: 1187px) {
+        margin-top: -180px;
+    }
+
+    @media screen and (max-width: 1095px) {
         margin-top: 34px;
     }
 }
@@ -176,25 +287,30 @@ hr{
     background-size: contain;
     background-repeat: no-repeat;
 
-    @media screen and (max-width: 1400px) {
+    @media screen and (max-width: 1100px) {
         margin-right: 34px;
         margin-bottom: 18px;
     }
 
+    @media screen and (max-width: 754px) {
+        margin-left: 36px;
+        margin-bottom: 15px;
+    }
+
     @media screen and (max-width: 654px) {
-        margin-right: 0;
+        margin: 0 15px;
         margin-top: -10px;
     }
 }
 
 .photo-2{
     background-image: url(../../img/photo2.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     margin: 15px 27px 0;
 
-    @media screen and (max-width: 1400px) {
-        margin: 15px 0 0;
+    @media screen and (max-width: 1095px) {
+        margin: 15px 0 ;
     }
 }
 
@@ -214,7 +330,7 @@ hr{
     background-image: url(../../img/photo4.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .photo-5{
@@ -225,12 +341,16 @@ hr{
     background-repeat: no-repeat;
     margin-top: 34px;
 
-    @media screen and (max-width: 1400px) {
+    @media screen and (max-width: 1095px) {
         margin-right: 34px;
     }
 
+    @media screen and (max-width: 754px) {
+        margin-left: 36px;
+    }
+
     @media screen and (max-width: 654px) {
-        margin-right: 0;
+        margin-right: 0 15px;
     }
 }
 
