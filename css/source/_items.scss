@@ -47,7 +47,7 @@
     }
 
     &__list{
-        flex: 0 0 310px;
+        flex: 0 1 310px;
         height: 350px;
         background-color: #f8f8f8;
         margin-top: 15px;
@@ -172,8 +172,8 @@ hr{
 }
 
 .photo-1{
-    background-image: url(/img/photo1.png);
-    background-size: cover;
+    background-image: url(../../img/photo1.png);
+    background-size: contain;
     background-repeat: no-repeat;
 
     @media screen and (max-width: 1400px) {
@@ -188,7 +188,7 @@ hr{
 }
 
 .photo-2{
-    background-image: url(/img/photo2.png);
+    background-image: url(../../img/photo2.png);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 15px 27px 0;
@@ -199,7 +199,7 @@ hr{
 }
 
 .photo-3{
-    background-image: url(/img/photo3.png);
+    background-image: url(../../img/photo3.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -211,14 +211,14 @@ hr{
 }
 
 .photo-4{
-    background-image: url(/img/photo4.png);
+    background-image: url(../../img/photo4.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .photo-5{
-    background-image: url(/img/photo5.png);
+    background-image: url(../../img/photo5.png);
     position: relative;
     display: block;
     background-size: contain;
@@ -240,7 +240,7 @@ hr{
 }
 
 .photo-6{
-    background-image: url(/img/photo6.png);
+    background-image: url(../../img/photo6.png);
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 34px;
